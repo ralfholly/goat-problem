@@ -57,7 +57,7 @@ def run(games_to_play_count):
 
         games_played = i + 1
 
-        print("\rgames played:%5d, games won (stayed): %.2f%%, games won (switched):%1.2f%%" % \
+        print("\rgames played: %5d, games won (stayed): %.2f%%, games won (switched): %.2f%%" % \
             (games_played, 100.0 * games_won_stay / games_played, 100.0 * games_won_change / games_played), end="")
 
     print()
